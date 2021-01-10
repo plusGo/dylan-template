@@ -1,0 +1,35 @@
+{
+  "name": "dylan-template",
+  "version": "0.0.1",
+  "description": "A javascript template engine",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "test",
+    "build": "webpack",
+    "prepublish": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plusGo/dylan-template.git"
+  },
+  "keywords": [
+    "javascript",
+    "template-engine"
+  ],
+  "author": "dylan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plusGo/dylan-template/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "homepage": "https://github.com/plusGo/dylan-template#readme",
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.12.2",
+    "webpack-cli": "^4.3.1"
+  }
+}
