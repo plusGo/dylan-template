@@ -28,6 +28,7 @@
     "access": "public"
   },
   "homepage": "https://github.com/plusGo/dylan-template#readme",
+  "typings": "./dist/src/index.d.ts",
   "devDependencies": {
     "terser-webpack-plugin": "^5.1.1",
     "ts-loader": "^8.0.14",

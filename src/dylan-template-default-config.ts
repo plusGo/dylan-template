@@ -20,7 +20,7 @@ export interface TemplateConfigInterface {
   escape?: boolean;
 }
 
-export class TemplateDefaultConfig implements TemplateConfigInterface {
+export class DylanTemplateDefaultConfig implements TemplateConfigInterface {
 
   startTag = '<%';
 

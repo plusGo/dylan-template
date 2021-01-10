@@ -1,13 +1,16 @@
-import {TemplateEngineExecutor} from './template-engine-executor';
-import {TemplateEngine} from './template-engine';
-import {TemplateDefaultConfig} from './template-default-config';
-import {TemplateParser} from './template-parser';
+import {DylanTemplateEngineExecutor} from './dylan-template-engine-executor';
+import {DylanTemplateEngine} from './dylan-template-engine';
+import {DylanTemplateDefaultConfig} from './dylan-template-default-config';
+import {DylanTemplateParser} from './dylan-template-parser';
 
-const DylanTemplate = {
-    DylanTemplateEngine: TemplateEngine,
-    DylanTemplateDefaultConfig: TemplateDefaultConfig,
-    DylanTemplateEngineExecutor: TemplateEngineExecutor,
-    DylanTemplateParser: TemplateParser,
+export default {
+    DylanTemplateEngine: DylanTemplateEngine,
+    DylanTemplateDefaultConfig: DylanTemplateDefaultConfig,
+    DylanTemplateEngineExecutor: DylanTemplateEngineExecutor,
+    DylanTemplateParser: DylanTemplateParser,
 };
 
-export default DylanTemplate;
+export * from './dylan-template-default-config';
+export * from './dylan-template-engine-executor';
+export * from './dylan-template-engine';
+export * from './dylan-template-parser';

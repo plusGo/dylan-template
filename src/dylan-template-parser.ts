@@ -3,10 +3,10 @@
  * 作用：将模板字符串解析成函数字符串
  * eg: '<%userName%> like basketball' 解析为 userName + 'like basketball'
  */
-import {keyWordsReg} from './template-engine';
+import {keyWordsReg} from './dylan-template-engine';
 import {tagRegBuilder} from './util/tag-reg-builder';
 
-export class TemplateParser {
+export class DylanTemplateParser {
 
   constructor(private templateTagReg: RegExp = tagRegBuilder(),
               private compress = false) {

@@ -13,7 +13,7 @@
     "noUnusedParameters": true,
     "declaration": true,
     // 声明文件打包的位置
-    "declarationDir": "./dist/types/",
+    "declarationDir": "./dist/",
     // 是否生成声明文件map文件（便于调试）
     "declarationMap": true,
     "typeRoots": [
