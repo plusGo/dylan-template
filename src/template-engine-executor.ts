@@ -1,4 +1,4 @@
-export class DylanTemplateEngineExecutor {
+export class TemplateEngineExecutor {
 
   // tslint:disable-next-line:ban-types
   constructor(private templateFunc: Function) {

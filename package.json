@@ -2,7 +2,7 @@
   "name": "dylan-template",
   "version": "0.0.18",
   "description": "A javascript template engine",
-  "main": "./dist/dylan-template.js",
+  "main": "index.js",
   "private": false,
   "scripts": {
     "test": "test",
