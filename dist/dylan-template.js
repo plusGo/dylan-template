@@ -16,13 +16,11 @@ return /******/ (() => { // webpackBootstrap
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "helloWorld": () => /* binding */ helloWorld
+/* harmony export */   "default": () => /* binding */ helloWorld
 /* harmony export */ });
 function helloWorld() {
     return 'Hello World';
 }
-
-console.log(helloWorld())
 
 
 /***/ })
