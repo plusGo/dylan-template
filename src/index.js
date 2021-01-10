@@ -1,5 +1,3 @@
-export function helloWorld() {
+export default function helloWorld() {
     return 'Hello World';
 }
-
-console.log(helloWorld())
