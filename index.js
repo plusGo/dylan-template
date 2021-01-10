@@ -1,5 +1,5 @@
-if (process.env.NODE_ENV = 'production') {
+if (process.env.NODE_ENV === 'production') {
     module.exports = require('./dist/dylan-template.min.js');
-}else {
+} else {
     module.exports = require('./dist/dylan-template.js');
 }
