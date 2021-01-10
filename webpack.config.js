@@ -9,7 +9,6 @@ module.exports = {
     output: {
         filename: '[name].js',
         library: 'dylan-template',
-        libraryExport: 'default',
         libraryTarget: 'umd'
     },
     resolve: {
