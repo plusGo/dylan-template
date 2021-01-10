@@ -1,3 +1,1 @@
-export default function helloWorld() {
-    return 'Hello World lala';
-}
+export * from './template-engine-executor';
