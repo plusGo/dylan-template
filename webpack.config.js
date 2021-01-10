@@ -5,6 +5,7 @@ module.exports = {
     mode: 'production',
     entry: {
         'dylan-template': './src/index.ts',
+        'dylan-template.min': './src/index.ts',
     },
     output: {
         filename: '[name].js',
@@ -24,12 +25,12 @@ module.exports = {
             }
         ]
     },
-    // optimization: {
-    //     minimize: true,
-    //     minimizer: [
-    //         new TerserPlugin({
-    //             include: /\.min\.js$/
-    //         })
-    //     ]
-    // }
+    optimization: {
+        minimize: true,
+        minimizer: [
+            new TerserPlugin({
+                include: /\.min\.js$/
+            })
+        ]
+    }
 };
