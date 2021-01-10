@@ -7,7 +7,7 @@
   "scripts": {
     "test": "test",
     "build": "webpack",
-    "publish": "npm version patch",
+    "publish:patch": "npm version patch && npm publish",
     "prepublish": "webpack"
   },
   "repository": {
