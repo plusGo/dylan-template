@@ -1,12 +1,13 @@
 {
   "name": "dylan-template",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "A javascript template engine",
   "main": "index.js",
   "private": false,
   "scripts": {
     "test": "test",
     "build": "webpack",
+    "publish": "npm version patch && npm publish",
     "prepublish": "webpack"
   },
   "repository": {
