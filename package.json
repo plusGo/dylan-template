@@ -1,6 +1,6 @@
 {
   "name": "dylan-template",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "A javascript template engine",
   "main": "index.js",
   "private": false,
